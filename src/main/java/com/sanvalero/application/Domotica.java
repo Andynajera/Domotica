@@ -32,4 +32,11 @@ public class Domotica {
                 break;
         }
     }
+    private void encenderLavadora(){
+        System.out.println("has encendido la lavadora");
+    }
+    private void apagarLavadora(){
+        System.out.println("has apagado la lavadora");
+    }
+
 }

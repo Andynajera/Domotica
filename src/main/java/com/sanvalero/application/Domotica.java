@@ -32,10 +32,10 @@ public class Domotica {
                 break;
         }
     }
-    private void encenderLuces(){
-        System.out.println("has encendido la luces");
+    private void levantarPersiana(){
+        System.out.println("has levantado la persiana");
     }
-    private void apagarLuces(){
-        System.out.println("has apagado la luces");
+    private void bajarPersiana(){
+        System.out.println("has bajado la persiana");
     }
 }

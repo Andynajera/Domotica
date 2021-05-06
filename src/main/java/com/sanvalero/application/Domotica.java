@@ -8,6 +8,47 @@ public class Domotica {
         System.out.println("Elige una opcion: (lavadoraOn ,lavadoraOff, persianaUp, persianaDown , lucesOn, lucesOff) ");
         String eleccion = entrada.next();
 
-
+        switch(eleccion){
+            case"lavadoraOn":
+                encenderLavadora();
+                break;
+            case"lavadoraOff":
+                apagarLavadora();
+                break;
+            case"persianaOn":
+                levantarPersiana();
+                break;
+            case"persianaOff":
+                bajarPersiana();
+                break;
+            case"lucesOn":
+                encenderLuces();
+                break;
+            case"lucesOff":
+                apagarLuces();
+                break;
+            default:
+                System.out.println("No has elegido una opcion correcta");
+                break;
+        }
+    }
+   private void encenderLavadora(){
+        System.out.println("has encendido la lavadora");
+    }
+    private void apagarLavadora(){
+        System.out.println("has apagado la lavadora");
+    }
+    private void levantarPersiana(){
+        System.out.println("has levantado la persiana");
+    }
+    private void bajarPersiana(){
+        System.out.println("has bajado la persiana");
+    }
+    private void encenderLuces(){
+        System.out.println("has encendido la luces");
+    }
+    private void apagarLuces(){
+        System.out.println("has apagado la luces");
+    }
 
 }
